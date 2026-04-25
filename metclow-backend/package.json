@@ -1,0 +1,25 @@
+{
+  "name": "metclow-backend",
+  "version": "1.0.0",
+  "description": "",
+  "@google/generative-ai": "^0.17.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.91.0",
+    "@huggingface/inference": "^4.13.15",
+    "@react-oauth/google": "^0.13.5",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.4.0",
+    "groq-sdk": "^1.1.2"
+  }
+}
